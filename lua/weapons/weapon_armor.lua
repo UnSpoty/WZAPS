@@ -35,7 +35,7 @@ function SWEP:Initialize()
 	
 end
 
-function SWEP:PrimaryAttack() -- Мега насрал
+function SWEP:PrimaryAttack() 
 	
 	
 	local MinArmor = 5
@@ -63,7 +63,7 @@ function SWEP:PrimaryAttack() -- Мега насрал
 	end
 end
 
-function SWEP:SecondaryAttack() -- Ультра мега насрал 
+function SWEP:SecondaryAttack()
 	
 	
 	local MaxArmor = 5
@@ -105,7 +105,7 @@ function SWEP:Think()
 
 end
 
-function SWEP:DrawHUD() -- Вообще этот парт нахуй тут не нужен но мне было нехуй делать.
+function SWEP:DrawHUD() 
    if CLIENT then
     local ourMat = Material( "models/plate/HUD_Plate" )
     surface.SetFont( "BudgetLabel" )
